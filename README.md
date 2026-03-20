@@ -5,7 +5,7 @@ OpenQA는 자연어 한 문장으로 웹 테스트를 실행하는 로컬 AI QA 
 테스트 시나리오를 문장으로 입력하면 OpenQA가 실제 브라우저를 직접 조작해 페이지를 탐색하고, 필요한 액션을 수행한 뒤 결과를 수집합니다. 실행이 끝나면 타임라인, 진단 정보, 원본 실행 데이터까지 하나의 워크스페이스에서 바로 이어서 확인할 수 있습니다.
 
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-OpenQA-111827?style=for-the-badge)](https://github.com/OpenQA-Desktop/OpenQA/releases/latest)
-[![Download for macOS](https://img.shields.io/badge/Download-macOS%20DMG-0A84FF?style=for-the-badge&logo=apple)](https://github.com/OpenQA-Desktop/OpenQA/releases/download/v0.1.4/OpenQA_0.1.4_aarch64.dmg)
+[![Download for macOS](https://img.shields.io/badge/Download-macOS%20DMG-0A84FF?style=for-the-badge&logo=apple)](https://github.com/OpenQA-Desktop/OpenQA/releases/download/v0.1.5/OpenQA_0.1.5_aarch64.dmg)
 
 ## 왜 OpenQA인가
 
@@ -31,4 +31,4 @@ OpenQA는 자연어 한 문장으로 웹 테스트를 실행하는 로컬 AI QA 
 ## 다운로드
 
 - 최신 릴리즈 보기: [OpenQA Releases](https://github.com/OpenQA-Desktop/OpenQA/releases/latest)
-- macOS DMG 직접 다운로드: [OpenQA_0.1.2_aarch64.dmg](https://github.com/OpenQA-Desktop/OpenQA/releases/download/v0.1.4/OpenQA_0.1.4_aarch64.dmg)
+- macOS DMG 직접 다운로드: [OpenQA_0.1.2_aarch64.dmg](https://github.com/OpenQA-Desktop/OpenQA/releases/download/v0.1.5/OpenQA_0.1.5_aarch64.dmg)

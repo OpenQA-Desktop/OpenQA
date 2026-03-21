@@ -7,21 +7,6 @@ OpenQA는 자연어 한 문장으로 웹 테스트를 실행하는 로컬 AI QA 
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-OpenQA-111827?style=for-the-badge)](https://github.com/OpenQA-Desktop/OpenQA/releases/latest)
 [![Install for macOS](https://img.shields.io/badge/Install-macOS%20via%20shell-0A84FF?style=for-the-badge&logo=apple)](https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.sh)
 
-## 왜 OpenQA인가
-
-- 테스트 케이스를 코드가 아니라 자연어로 작성할 수 있습니다.
-- 실제 브라우저를 사용해 사용자가 겪는 흐름에 가까운 검증을 수행합니다.
-- 실행 결과를 로그가 아니라 타임라인과 진단 중심으로 확인할 수 있습니다.
-- 반복 테스트를 스케줄로 등록해 운영 흐름까지 이어갈 수 있습니다.
-
-## 핵심 경험
-
-- 자연어 기반 테스트 케이스 작성
-- 브라우저 자동 탐색과 액션 수행
-- 실행 타임라인과 진단 결과 확인
-- 원본 실행 데이터와 아티팩트 검토
-- 반복 실행을 위한 스케줄 운영
-
 ## 설치
 
 개발자 전용 배포 기준으로 가장 간단한 설치 방법은 아래 한 줄입니다.
@@ -46,6 +31,21 @@ curl -fsSL https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.
 
 - 현재 공개 빌드는 macOS Apple Silicon(`arm64`) 기준입니다.
 - 일반 사용자용 notarized DMG 배포가 아니라 개발자용 shell 설치 흐름입니다.
+
+## 왜 OpenQA인가
+
+- 테스트 케이스를 코드가 아니라 자연어로 작성할 수 있습니다.
+- 실제 브라우저를 사용해 사용자가 겪는 흐름에 가까운 검증을 수행합니다.
+- 실행 결과를 로그가 아니라 타임라인과 진단 중심으로 확인할 수 있습니다.
+- 반복 테스트를 스케줄로 등록해 운영 흐름까지 이어갈 수 있습니다.
+
+## 핵심 경험
+
+- 자연어 기반 테스트 케이스 작성
+- 브라우저 자동 탐색과 액션 수행
+- 실행 타임라인과 진단 결과 확인
+- 원본 실행 데이터와 아티팩트 검토
+- 반복 실행을 위한 스케줄 운영
 
 ## 다운로드
 

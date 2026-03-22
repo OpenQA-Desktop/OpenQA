@@ -6,7 +6,7 @@ OpenQA는 자연어 시나리오로 웹 테스트를 실행하는 로컬 QA 데�
 
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-OpenQA-111827?style=for-the-badge)](https://github.com/OpenQA-Desktop/OpenQA/releases/latest)
 [![Install for macOS](https://img.shields.io/badge/Install-macOS%20via%20shell-0A84FF?style=for-the-badge&logo=apple)](https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.sh)
-[![Download for Windows](https://img.shields.io/badge/Download-Windows%20Installer-0078D4?style=for-the-badge&logo=windows)](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA_0.1.9_x64-setup.exe)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%20Installer-0078D4?style=for-the-badge&logo=windows)](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA_0.1.10_x64-setup.exe)
 
 ## Install
 
@@ -35,7 +35,7 @@ curl -fsSL https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.
 
 ### Windows
 
-- 위 Windows 다운로드 버튼 또는 [latest release](https://github.com/OpenQA-Desktop/OpenQA/releases/latest) 에서 `OpenQA_0.1.9_x64-setup.exe`를 받습니다.
+- 위 Windows 다운로드 버튼 또는 [latest release](https://github.com/OpenQA-Desktop/OpenQA/releases/latest) 에서 `OpenQA_0.1.10_x64-setup.exe`를 받습니다.
 - 설치 파일을 실행해 OpenQA를 설치합니다.
 - 이후 버전부터는 앱 내부 업데이트로 받을 수 있습니다.
 
@@ -56,10 +56,10 @@ curl -fsSL https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.
 - [OpenQA.app.tar.gz](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA.app.tar.gz)
 - [OpenQA.app.tar.gz.sig](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA.app.tar.gz.sig)
 - [latest.json](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/latest.json)
-- [OpenQA_0.1.9_x64-setup.exe](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA_0.1.9_x64-setup.exe)
-- [OpenQA_0.1.9_x64-setup.exe.sig](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA_0.1.9_x64-setup.exe.sig)
+- [OpenQA_0.1.10_x64-setup.exe](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA_0.1.10_x64-setup.exe)
+- [OpenQA_0.1.10_x64-setup.exe.sig](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA_0.1.10_x64-setup.exe.sig)
 
-`latest.json`은 macOS와 Windows 앱 내부 업데이트 metadata를 함께 제공합니다. `OpenQA.app.tar.gz`, `OpenQA.app.tar.gz.sig`, `OpenQA_0.1.9_x64-setup.exe`, `OpenQA_0.1.9_x64-setup.exe.sig`은 플랫폼별 업데이트 경로에서 사용됩니다.
+`latest.json`은 macOS와 Windows 앱 내부 업데이트 metadata를 함께 제공합니다. `OpenQA.app.tar.gz`, `OpenQA.app.tar.gz.sig`, `OpenQA_0.1.10_x64-setup.exe`, `OpenQA_0.1.10_x64-setup.exe.sig`은 플랫폼별 업데이트 경로에서 사용됩니다.
 
 ## Source
 

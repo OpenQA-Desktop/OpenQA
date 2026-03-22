@@ -28,11 +28,12 @@ curl -fsSL https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.
 
 처음 실행한 뒤에는 보통 아래 순서로 사용합니다.
 
-1. LLM 제공자를 연결합니다. `OpenAI`, `Ollama`, `Custom (OpenAI-compatible)` 중 하나를 선택해 바로 시작할 수 있습니다.
-2. 워크스페이스에서 새 테스트를 만들고 대상 URL과 자연어 시나리오를 입력합니다.
-3. 실행을 시작하면 OpenQA가 실제 브라우저를 열고 페이지를 관찰하면서 필요한 액션을 순차적으로 수행합니다.
-4. 실행이 끝나면 타임라인, 스크린샷, 진단 정보, `run_report.json`으로 결과를 확인합니다.
-5. 반복 확인이 필요하면 스냅샷 재사용이나 interval 스케줄을 설정해 같은 흐름을 자동으로 다시 실행합니다.
+1. LLM 제공자를 연결합니다. 현재 앱에는 `OpenAI`, `Claude (Anthropic)`, `Google Gemini`, `Z.AI GLM`, `xAI (Grok)`, `DeepSeek`, `OpenRouter`, `Together AI`, `Groq`, `Fireworks AI`, `Cerebras`, `Baseten`, `Ollama (Local)`, `LM Studio (Local)`, `Custom (OpenAI-Compatible)`가 있습니다.
+2. 처음 설정이 목적이면 `OpenAI`, `Ollama`, `Custom (OpenAI-Compatible)`부터 시작하는 편이 가장 단순합니다.
+3. 워크스페이스에서 새 테스트를 만들고 대상 URL과 자연어 시나리오를 입력합니다.
+4. 실행을 시작하면 OpenQA가 실제 브라우저를 열고 페이지를 관찰하면서 필요한 액션을 순차적으로 수행합니다.
+5. 실행이 끝나면 타임라인, 스크린샷, 진단 정보, `run_report.json`으로 결과를 확인합니다.
+6. 반복 확인이 필요하면 스냅샷 재사용이나 interval 스케줄을 설정해 같은 흐름을 자동으로 다시 실행합니다.
 
 ## What It Does
 

@@ -2,12 +2,15 @@
 
 OpenQA는 자연어 시나리오로 웹 테스트를 실행하는 로컬 QA 데스크톱 앱입니다.
 
-이 저장소는 macOS 배포 채널입니다. 소스 코드는 [OpenQA-Desktop/OpenQA-Desktop](https://github.com/OpenQA-Desktop/OpenQA-Desktop) 에 있습니다.
+이 저장소는 macOS / Windows 배포 채널입니다. 소스 코드는 [https://github.com/OpenQA-Desktop/OpenQA-Desktop](https://github.com/OpenQA-Desktop/OpenQA-Desktop) 에 있습니다.
 
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-OpenQA-111827?style=for-the-badge)](https://github.com/OpenQA-Desktop/OpenQA/releases/latest)
 [![Install for macOS](https://img.shields.io/badge/Install-macOS%20via%20shell-0A84FF?style=for-the-badge&logo=apple)](https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.sh)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%20Installer-0078D4?style=for-the-badge&logo=windows)](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA_0.1.8_x64-setup.exe)
 
 ## Install
+
+### macOS
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.sh | sh
@@ -30,7 +33,13 @@ curl -fsSL https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.
 curl -fsSL https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.sh | OPENQA_INSTALL_DIR="$HOME/Applications" sh
 ```
 
-현재 공개 빌드는 macOS Apple Silicon(`arm64`) 기준입니다.
+### Windows
+
+- 위 Windows 다운로드 버튼 또는 [latest release](https://github.com/OpenQA-Desktop/OpenQA/releases/latest) 에서 `OpenQA_0.1.8_x64-setup.exe`를 받습니다.
+- 설치 파일을 실행해 OpenQA를 설치합니다.
+- 이후 버전부터는 앱 내부 업데이트로 받을 수 있습니다.
+
+현재 공개 빌드는 macOS shell installer와 Windows x64 installer를 제공합니다.
 
 ## What It Does
 
@@ -45,17 +54,19 @@ curl -fsSL https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.
 - [latest release](https://github.com/OpenQA-Desktop/OpenQA/releases/latest)
 - [install.sh](https://raw.githubusercontent.com/OpenQA-Desktop/OpenQA/main/install.sh)
 - [OpenQA.app.tar.gz](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA.app.tar.gz)
+- [OpenQA.app.tar.gz.sig](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA.app.tar.gz.sig)
 - [latest.json](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/latest.json)
-- [DMG assets](https://github.com/OpenQA-Desktop/OpenQA/releases/latest)
+- [OpenQA_0.1.8_x64-setup.exe](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA_0.1.8_x64-setup.exe)
+- [OpenQA_0.1.8_x64-setup.exe.sig](https://github.com/OpenQA-Desktop/OpenQA/releases/latest/download/OpenQA_0.1.8_x64-setup.exe.sig)
 
-`OpenQA.app.tar.gz`, `OpenQA.app.tar.gz.sig`, `latest.json`은 앱 업데이트 경로에서 사용됩니다.
+`latest.json`은 macOS와 Windows 앱 내부 업데이트 metadata를 함께 제공합니다. `OpenQA.app.tar.gz`, `OpenQA.app.tar.gz.sig`, `OpenQA_0.1.8_x64-setup.exe`, `OpenQA_0.1.8_x64-setup.exe.sig`은 플랫폼별 업데이트 경로에서 사용됩니다.
 
 ## Source
 
-- Source repository: [OpenQA-Desktop/OpenQA-Desktop](https://github.com/OpenQA-Desktop/OpenQA-Desktop)
-- Releases: [OpenQA-Desktop/OpenQA](https://github.com/OpenQA-Desktop/OpenQA/releases/latest)
+- Source repository: [https://github.com/OpenQA-Desktop/OpenQA-Desktop](https://github.com/OpenQA-Desktop/OpenQA-Desktop)
+- Releases: [https://github.com/OpenQA-Desktop/OpenQA/releases/latest](https://github.com/OpenQA-Desktop/OpenQA/releases/latest)
 
 ## Notes
 
-- 현재 배포 흐름은 개발자 중심 shell 설치를 우선합니다.
-- 일반 사용자용 notarized 배포 UX는 아직 기본 경로가 아닙니다.
+- macOS는 shell 설치 경로를 기본으로 유지합니다.
+- Windows는 direct download installer를 기본 경로로 제공합니다.
